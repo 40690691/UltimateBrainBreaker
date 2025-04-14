@@ -165,3 +165,19 @@ a {
         margin-bottom: 20px; /* Add space between stacked boxes */
     }
 }
+
+.celebrate {
+    font-size: 3em;
+    color: #2ecc71; 
+    animation: pop 1s ease-in-out infinite alternate;
+}
+
+/* Code for pulsing animation */
+@keyframes pop {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
