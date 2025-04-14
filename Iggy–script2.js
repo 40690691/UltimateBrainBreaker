@@ -15,7 +15,7 @@ function choice(event) {
 }
 
 function win() {
-	window.location.assign("./Emma.html");	
+	window.location.replace("./Emma.html");	
 }
 
 function lose(){

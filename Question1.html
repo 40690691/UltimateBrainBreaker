@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
-<body>
+
+<body class="quiz-page">
     <div class="navbar">
         <img src="media/logo.png" alt="Logo" class="logo">
         <div class="nav-links">
-            <a href="homePage.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="hintPage.html">Hint</a>
             <a href="faq.html">FAQ</a>
         </div>
@@ -22,26 +23,28 @@
     </div>
 
     <div class="container">
+        <!-- Sentence split into h1s -->
+        <h1>How many cm is in a</h1> <a href="Question2.html"><h1>1</h1></a> <h1>cm pencil</h1>
 
-        <h1>Ultimate Brain Braker</h1>
-
-        <a href="Question1.html">
-            <button class="button">Start Quiz</button> 
-        </a>
-
-        <div id="button" >
-            <button class="input-box" style="background-color: #ff9800; ">Rules
-                <p class="hint-text" style="display: none;">The rules</p>
-            </button> 
+        <!-- Clickable boxes (2 boxes per row initially) -->
+        <div class="input-boxes">
+            <!-- First row (2 boxes) -->
+            <a href="index.html" class="input-box">
+                <h2>1</h2>
+            </a>
+            <a href="index.html" class="input-box">
+                <h2>7</h2>
+            </a>
         </div>
-      
-    </div>
-    </div>
-
-
-    <div class="images">
-        <img src="media/fun1.png" alt="Funny Image 1">
-        <img src="media/fun2.png" alt="Funny Image 2">
+        <div class="input-boxes">
+            <!-- Second row (2 boxes) -->
+            <a href="index.html" class="input-box">
+                <h2>2</h2>
+            </a>
+            <a href="index.html" class="input-box">
+                <h2>9</h2>
+            </a>
+        </div>
     </div>
 </body>
 </html>

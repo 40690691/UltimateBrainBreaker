@@ -38,7 +38,7 @@ function word(event) {
 }
 
 function win() {
-	window.location.assign("./Iggy–Question2.html");	
+	window.location.replace("./Question3.html");	
 }
 
 function lose() {
